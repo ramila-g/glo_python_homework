@@ -1,1 +1,10 @@
+r = int(input()) # цена рубли
+k = int(input()) # цена копейки
+n = int(input()) # количество мячей
+
+total_r = r * n + n * k // 100
+total_k = n * k % 100
+
+print('За', n, 'мяча нужно заплатить', total_r, 'рублей и', total_k, 'копеек')
+
 
