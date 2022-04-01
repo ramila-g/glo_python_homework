@@ -1,1 +1,7 @@
+k = int(input()) # number of tasks
+m = int(input()) # max daily tasks
 
+if k % m == 1:
+    print(k // m + 1)
+else:
+    print(k // m)
