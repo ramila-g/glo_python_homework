@@ -1,1 +1,7 @@
+sec = int(input())
 
+hours = sec // 3600
+minutes = (sec - hours * 3600) // 60
+seconds = sec - minutes * 60 - hours * 3600
+
+print(sec, 'секунд - это', hours, 'час', minutes, 'минут', seconds, 'секунд')
