@@ -1,1 +1,18 @@
+cell = int(input())
+
+if not 0 <= cell <= 36:
+    print("Ошибка ввода")
+elif cell == 0:
+    print('Зеленый')
+elif 1 <= cell <= 10 or 19 <= cell <= 28:
+    if cell % 2 == 1:
+        print('Красный')
+    else:
+        print('Черный')
+elif 11 <= cell <= 18 or 29 <= cell <= 36:
+    if cell % 2 == 1:
+        print('Черный')
+    else:
+        print('Красный')
+
 
