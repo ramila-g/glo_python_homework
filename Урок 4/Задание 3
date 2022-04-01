@@ -1,1 +1,7 @@
+num = int(input())
+num1 = num % 10
+num2 = num // 10 % 10
+num3 = num // 100 % 10
 
+print('Сумма цифр числа', num, 'равна', num1 + num2 + num3)
+print('Произведение цифр числа', num, 'равно', num1 * num2 * num3)
