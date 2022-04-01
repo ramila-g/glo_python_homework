@@ -1,1 +1,25 @@
+# task 1.1
 
+print('Glo Academy')
+print()
+print('Glo Academy')
+
+# task 1.2
+
+print('Glo Academy', '', 'Glo Academy', sep='\n')
+
+# task 2
+
+print('Как тебя зовут?')
+name = input()
+print('Привет,', name)
+
+# task 3
+
+print('Как вас зовут?')
+name = input()
+print('Как ваша фамилия?')
+surname = input()
+print('Как ваше отчество?')
+patronymic = input()
+print(surname, name, patronymic)
