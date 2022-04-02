@@ -1,0 +1,12 @@
+text1 = input()
+text2 = input()
+text3 = input()
+
+maxim = max(len(text1),len(text2),len(text3))
+
+if len(text1) == maxim:
+    print(text1)
+elif len(text2) == maxim:
+    print(text2)
+elif len(text3) == maxim:
+    print(text3)
