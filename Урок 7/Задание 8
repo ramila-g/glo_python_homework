@@ -1,0 +1,17 @@
+n = int(input())
+
+max = 0
+min = 0
+
+for i in range(n):
+    a = int(input())
+    if i == 0:
+        max = a
+        min = a
+    if a > max:
+        max = a
+    elif a < min:
+        min = a
+
+print('Минимум равен', min)
+print('Максимум равен', max)
