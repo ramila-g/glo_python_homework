@@ -1,1 +1,4 @@
+n = int(input())
 
+for n in range(n + 1):
+    print('Квадрат числа', n, 'равен', n ** 2)
