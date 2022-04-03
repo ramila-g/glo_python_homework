@@ -1,0 +1,12 @@
+a = int(input())
+digit = a
+digit_sum = 0
+
+while digit > 0:
+    digit_sum += digit % 10
+    digit = digit // 10
+
+if a % digit_sum == 0:
+    print('YES')
+else:
+    print('NO')
