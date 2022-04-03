@@ -1,0 +1,13 @@
+n = int(input())
+negs = 0
+poss = 0
+
+while n != 0:
+    if n > 0:
+        poss += 1
+    elif n < 0:
+        negs += 1
+    n = int(input())
+
+
+print(poss * negs)
