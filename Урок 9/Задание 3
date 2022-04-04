@@ -1,0 +1,9 @@
+n = int(input())
+
+while n > 0:
+    if n % 10 == 1:
+        print('YES')
+        break
+    n = n // 10
+    if n <= 0:
+        print('NO')
