@@ -1,0 +1,10 @@
+s = input()
+prev = ''
+counter = 0
+
+for i in range(len(s)):
+    if s[i] == prev:
+        counter += 1
+    prev = s[i]
+
+print(counter)
