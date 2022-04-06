@@ -1,0 +1,9 @@
+x = input()
+
+first = ord('А')
+last = ord('Я')
+
+if first <= ord(x) <= last:
+    print('YES')
+else:
+    print('NO')
