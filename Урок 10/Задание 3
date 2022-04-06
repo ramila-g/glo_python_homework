@@ -1,9 +1,6 @@
 x = input()
 
-first = ord('А')
-last = ord('Я')
-
-if first <= ord(x) <= last:
+if ord('А') <= ord(x) <= ord('Я'):
     print('YES')
 else:
     print('NO')
