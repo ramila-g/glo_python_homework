@@ -1,0 +1,8 @@
+x = input()
+
+if ord('a') <= ord(x) <= ord('z'):
+    print(x.upper())
+elif ord('A') <= ord(x) <= ord('Z'):
+    print(x.lower())
+else:
+    print(x)
