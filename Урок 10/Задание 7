@@ -1,0 +1,5 @@
+surname = input()
+name = input()
+patr = input()
+
+print(f'{surname} {name[0]}.{patr[0]}.')
