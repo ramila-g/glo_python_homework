@@ -1,0 +1,9 @@
+first = input()
+second = input()
+
+if ord(first) <= ord(second):
+    for i in range(ord(first), ord(second) + 1):
+        print(chr(i), end=' ')
+else:
+    for i in range(ord(second), ord(first) + 1):
+        print(chr(i), end=' ')
