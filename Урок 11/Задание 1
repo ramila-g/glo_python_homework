@@ -1,0 +1,12 @@
+n = int(input())
+word_bank = []
+
+for _ in range(n):
+    word_bank.append(input())
+
+search = input()
+
+for el in word_bank:
+    if search.lower() in el.lower():
+        print(el)
+
