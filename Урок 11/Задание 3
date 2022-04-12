@@ -1,0 +1,12 @@
+ip = map(int, input().split('.'))
+flag = 1
+
+for el in ip:
+    if not 0 <= el <= 255:
+        flag = 0
+        break
+
+if flag:
+    print('YES')
+else:
+    print('NO')
